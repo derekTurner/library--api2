@@ -18,7 +18,7 @@ services:
     
     container_name: serverAPI
     ports:
-    - 3000:3000
+    - 3001:3001
     environment:
       MONGODB_CONNSTRING: mongodb://root:example@mongodb:27017
     depends_on:
