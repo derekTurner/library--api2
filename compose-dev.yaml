@@ -16,7 +16,7 @@ services:
     #  context: myapp
     restart: always
     
-    container_name: serverAPI2
+    container_name: serverAPITWO
     ports:
     - 3001:3001
     environment:
@@ -30,7 +30,7 @@ services:
   mongodb:
     image: mongo:5.0
     restart: always
-    container_name: mongodbAPI2
+    container_name: mongodbAPITWO
     environment:
       MONGO_INITDB_ROOT_USERNAME: root
       MONGO_INITDB_ROOT_PASSWORD: example
